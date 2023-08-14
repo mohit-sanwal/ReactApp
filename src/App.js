@@ -3,8 +3,8 @@ import React, { useEffect, useState, lazy, Suspense} from 'react';
 import { Provider } from 'react-redux';
 import store from './redux/store';
 import useReport from './useReport';
-import Counter from './useMemoHook/Counter';
-import ParentComponent from './useCallbackHook/ParentComponent';
+import Counter from './hook/useMemoHook/Counter';
+import ParentComponent from './hook/useCallbackHook/ParentComponent';
 import ReducerHook from './hooks/ReducerHook'
 import RefHook from './hooks/RefHook';
 // import ParentComp from './hooks/useImperativeHandlerHook.js/ParentComp';
